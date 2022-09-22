@@ -1,0 +1,113 @@
+.gallery-slider{
+    overflow: hidden;
+    position: relative;
+}
+.gallery-slider-item{
+    height: 450px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.3s;
+}
+.gallery-img{
+    width: 90%;
+    height: 400px;
+    position: absolute;
+    z-index: 2; 
+    left: 5%;
+    top: 25px;
+    transition: 0.3s;
+}
+.gallery-img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: 0.3s;
+}
+.gallery-rgb{
+    position: absolute;
+    background: linear-gradient(rgba(0,0,0,0) 15%, rgba(0,0,0,0.4) 100%);
+    width: 90%;
+    height: 400px;
+    top: 25px;
+    left: 5%;
+    z-index: 9;
+    opacity: 0;
+    transition: 0.3s;
+}
+/* .gallery-slider .slick-list{
+    max-height: 400px;
+    overflow: hidden;
+} */
+.gallery-text{
+    position: absolute;
+    bottom: 35px;
+    left: 5%;
+    z-index: 9;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: fit-content;
+    opacity: 0;
+    transition: 0.3s;
+}
+.gallery-text h1{
+    color: #fff;
+}
+.gallery-text span{
+    color: #fff;
+}
+.gallery-slider .slick-center .gallery-img,
+.gallery-slider .slick-center .gallery-rgb,
+.gallery-slider .slick-center .gallery-text
+{
+    width: 118%;
+    left: -9%;
+    opacity: 1;
+    z-index: 99; 
+} 
+ 
+.gallery-slider .slick-center .gallery-img,
+.gallery-slider .slick-center .gallery-rgb{
+    height: 450px;
+    margin-top: -25px;
+}
+ .button-001{
+    position: absolute;
+    top: 50%;
+    left: 29px;
+    transform: translateY(-50%);
+    border: none;
+    background:rgba(0, 0, 0, 0.4); 
+    padding: 15px 10px;
+    border-top-right-radius: 50%;
+    border-bottom-right-radius: 50%;
+ }
+ .button-002{
+    position: absolute;
+    top: 50%;
+    right: 27px;
+    transform: translateY(-50%);
+    border: none;
+    background:rgba(0, 0, 0, 0.4); 
+    padding: 20px 10px;
+    border-top-left-radius: 50%;
+    border-bottom-left-radius: 50%;
+ }
+ .button-002 span{
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+ }
+ .button-002 span svg{
+    transform: rotate(180deg);
+ }
+/* .gallery-slider .slick-slide {
+    margin: 0 10px;
+}
+ 
+.gallery-slider .slick-list {
+    margin: 0 -10px;
+} */

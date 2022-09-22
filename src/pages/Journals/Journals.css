@@ -1,0 +1,116 @@
+.travel-journals{
+    width: 100%;
+    padding: 100px 0;
+    background: #0A0D13;
+}
+.journal-box{
+    margin-top: 40px;
+    width: 100%;
+    gap: 50px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.journal-item{
+    width: calc((100% / 3) - 34px );
+    height: 540px;
+    transition: 0.3s;
+    overflow: hidden;
+}
+.journal-item:hover{
+    box-shadow: rgba(255, 255, 255, 0.1) 0px 7px 29px 0px; 
+}
+.journal-item:hover .img-journal img{
+    transform: scale(1.1);
+}
+.img-journal{
+    width: 100%;
+    height: 359px;
+    display: block;
+}
+.img-journal img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: 0.3s;
+}
+.journal-share-box{
+    height: calc(100% - 359px);
+    width: 100%;
+    padding: 30px;
+    background: #1F242E;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+.avatar{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    text-decoration: none;
+    margin-bottom: 15px;
+}
+.avatar h5{
+    color: #DFDFDF;
+    font-size: 14px; 
+    margin: 0;
+}
+.journal-item .text{
+    font-size: 18px;
+    padding-right: 40%;
+    color: #fff;
+    line-height: 24px;
+    text-decoration: none;
+    font-family: 'FiraGO';
+}
+.time{
+    width: 100%;
+    text-decoration: none;
+    color: #757D8C;
+    font-size: 14px;
+    margin-top: 10px;
+    font-family: 'Calibri';
+}
+.pos-abs-share{
+    position: absolute;
+    right: 30px;
+    bottom: 30px;
+}
+.journal-link{
+    text-decoration: none;
+    margin-top: 60px;
+    display: flex;
+    align-items: center;
+    height: 50px;
+    background-color: #F49F0A;
+    color: #0A0D13;
+    font-size: 16px;
+    padding-left: 20px;
+    width: fit-content;
+    transition: 0.3s;
+}
+.journal-link span{
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #E89400;
+    margin-left: 22px;
+}
+.journal-link:hover{
+    background-color: #E89400;
+    color: #0A0D13;
+}
+.journal-link-div{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+ .pos-abs-share span svg path{
+    transition: 0.3s; 
+}
+ .pos-abs-share:hover span svg path{
+    fill: #F49F0A;
+}

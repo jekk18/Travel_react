@@ -1,0 +1,130 @@
+.discover{
+    padding: 100px 0;
+    padding-bottom: 160px;
+    background-color: #0A0D13;
+}
+.important-title{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 60px;
+}
+.important-title h1{
+    font-size: 42px;
+    font-weight: bold;
+    color: #fff;
+    margin: 0;
+    margin-bottom: 30px;
+}
+.important-title .text{
+    margin: 0;
+    max-height: 48px;
+    overflow: hidden;
+    max-width: 600px;
+    line-height: 20px;
+    color: #fff;
+    font-size: 16px;
+    text-align: center;
+}
+.discover-box{
+    width: 100%;
+    gap: 70px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.discover-item{
+    position: relative;
+    width: calc((100% / 3) - 47px);
+    height: 500px;
+    transition: 0.3s;
+}
+.discover-item:hover{
+    cursor: pointer;
+    box-shadow: rgba(255, 255, 255, 0.2) 0px 7px 29px 0px;
+}
+.discover-item:nth-child(3n-1){
+    margin-top: 60px;
+}
+.under-img{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}
+.under-img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.background-rgba{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+    background: linear-gradient(to bottom, rgba(0,0,0,0), rgba(0,0,0,0) 10%, rgba(0,0,0,0.5) 65%, rgba(10,13,19,1) 100%);
+}
+.img-text-0{
+    position: absolute;
+    z-index: 3;
+    bottom: -67px;
+    left: 30px;
+    width: 92%;
+    padding-right: 30px;
+    display: flex;
+    flex-direction: column;
+}
+.img-text-0 h1{
+    color: #F49F0A;
+    margin: 0;
+    margin-bottom: 12px;
+    font-size: 34px;
+    font-weight: bold;
+}
+.img-text-0 .text{
+    font-size: 16px;
+    color: #fff;
+    line-height: 20px;
+    margin-bottom: 30px;
+}
+.disocver-link{
+    width: 196px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border: 2px solid #fff;
+    font-size: 16px;
+    color: #fff;
+    text-decoration: none;
+    transition: 0.3s;
+}
+.disocver-link:hover{
+    background: #fff;
+    color: #0A0D13;
+}
+.disocver-link:hover span svg path{
+    fill: #0A0D13;
+    stroke: #0A0D13;
+}
+
+@media(max-width:1199px){
+    .discover-box{
+        gap: 50px;
+    }
+    .discover-item{
+        width: calc((100% / 2) - 25px);
+    }
+}
+@media(max-width:767px){
+    .discover-box{
+        gap: 130px;
+    }
+    .discover-item{
+        width: 100%;
+    }
+    .discover-item:nth-child(3n-1){
+        margin-top: initial;
+    }
+}
