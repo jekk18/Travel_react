@@ -1,0 +1,39 @@
+{
+  "files": {
+    "main.css": "/Travel_react/static/css/main.dc4330ad.css",
+    "main.js": "/Travel_react/static/js/main.391a9bc3.js",
+    "static/media/banner.png": "/Travel_react/static/media/banner.d91040264d8aab4a8feb.png",
+    "static/media/aboutImg.png": "/Travel_react/static/media/aboutImg.a25e412b55d3bfa48701.png",
+    "static/media/FiraGO-Medium.woff": "/Travel_react/static/media/FiraGO-Medium.c8bb9b49c2276456161a.woff",
+    "static/media/FiraGO-Bold.woff": "/Travel_react/static/media/FiraGO-Bold.f1925bf170a99f9a3e3b.woff",
+    "static/media/FiraGO-Regular.woff": "/Travel_react/static/media/FiraGO-Regular.797e759c9b533e62290e.woff",
+    "static/media/trav2.png": "/Travel_react/static/media/trav2.f183b241721eb53d121a.png",
+    "static/media/Blog2.png": "/Travel_react/static/media/Blog2.a2fe1d7400fcb3ae2c1d.png",
+    "static/media/Blog1.png": "/Travel_react/static/media/Blog1.d016f9aab804ecb087d8.png",
+    "static/media/trav1.png": "/Travel_react/static/media/trav1.79fc0b573dba00408832.png",
+    "static/media/Japan.png": "/Travel_react/static/media/Japan.ad13c645585f16cdac3a.png",
+    "static/media/Norway.png": "/Travel_react/static/media/Norway.8253302d91faad3070aa.png",
+    "static/media/FiraGO-Medium.woff2": "/Travel_react/static/media/FiraGO-Medium.16a0a726d6c034ceabc2.woff2",
+    "static/media/FiraGO-Bold.woff2": "/Travel_react/static/media/FiraGO-Bold.4550f437402f63e03da9.woff2",
+    "static/media/Blog4.png": "/Travel_react/static/media/Blog4.47f74a439a79e00ef1b6.png",
+    "static/media/FiraGO-Regular.woff2": "/Travel_react/static/media/FiraGO-Regular.04233c668628501831a8.woff2",
+    "static/media/gal3.png": "/Travel_react/static/media/gal3.319d5e89c14a3d0e090a.png",
+    "static/media/trav4.png": "/Travel_react/static/media/trav4.d5ef24a00ea06f744104.png",
+    "static/media/gal2.png": "/Travel_react/static/media/gal2.18d4234fadd4bf3791b5.png",
+    "static/media/trav5.png": "/Travel_react/static/media/trav5.63e103373a23e6aacf5b.png",
+    "static/media/gal4.png": "/Travel_react/static/media/gal4.771fec7cdfd599a23eac.png",
+    "static/media/London.png": "/Travel_react/static/media/London.f7de4627a02ac1a8fd06.png",
+    "static/media/trav6.png": "/Travel_react/static/media/trav6.b4531fad0bdf084ec413.png",
+    "static/media/Blog3.png": "/Travel_react/static/media/Blog3.e9fb250949d838d31a9f.png",
+    "static/media/trav3.png": "/Travel_react/static/media/trav3.016265237dd45fcfb9b9.png",
+    "static/media/gal1.png": "/Travel_react/static/media/gal1.76030079c48a3c246995.png",
+    "static/media/gal5.png": "/Travel_react/static/media/gal5.d3ccb246a39b5dfb6ddf.png",
+    "index.html": "/Travel_react/index.html",
+    "main.dc4330ad.css.map": "/Travel_react/static/css/main.dc4330ad.css.map",
+    "main.391a9bc3.js.map": "/Travel_react/static/js/main.391a9bc3.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.dc4330ad.css",
+    "static/js/main.391a9bc3.js"
+  ]
+}
