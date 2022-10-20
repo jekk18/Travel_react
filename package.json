@@ -2,7 +2,7 @@
   "name": "travel_web",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://github.com/jekk18/Travel_react.git",
+  "homepage": "https://jekk18.github.io/Travel_react",
   "dependencies": {
     "@emotion/react": "^11.10.4",
     "@emotion/styled": "^11.10.4",
